@@ -32,7 +32,7 @@ function ChatInput({channelName, channelId}) {
                 <input 
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
-                placeholder={`Message #${channelName?.toLowerCase()}`}/>
+                placeholder={`Message #${channelName}`}/>
                 <button type="submit" onClick={sendMessage}>SEND</button>
             </form>
         </div>

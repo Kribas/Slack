@@ -27,7 +27,9 @@ function App() {
           </Route>
 
           <Route path="/">
+          <div className="app__main">
             <h1>Welcome</h1>
+            </div>
           </Route>
 
         </Switch>
